@@ -153,9 +153,14 @@ select {
     text-align: center;
 }
 a.butn-find {
-    background: white;
     padding: 18px 44px;
     font-size: 20px;
     text-decoration: none;
-    margin: 33%;
+    margin: 4% 0 4% 33%;
+    background: var(--primary);
+    color: var(--text);
+}
+a.butn-find:hover {
+    background: var(--secondary);
+    border-radius: 25px
 }
