@@ -105,6 +105,9 @@ section#veriety_of_cars {
     padding: 6% 0;
     overflow: hidden;
 }
+.section padding{
+    padding: 7% 0;
+}
 h1.title {
     font-size: 30px;
     /* padding: 55px 5px; */
@@ -121,8 +124,10 @@ h1.title {
 }
 .cars-name {
     float: left;
-    /* padding: 20px 5px 20px 10px; */
+     padding: 2% 0;
     width: 33%;
+    background: var(--secondary);
+    margin-top: 4%;
 }
 /*search car*/
 #search_car_area {
