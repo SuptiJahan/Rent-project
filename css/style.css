@@ -20,10 +20,12 @@
 .container{
     margin: 0 auto;
     width: 1150px;
+    overflow: hidden;
 }
 /*header-section*/
 section#header-section {
-    padding: 20px 0px 20px 5px;
+    height: 80px;
+    padding-top: 22px;
 }
 .header-left {
     float: left;
@@ -52,4 +54,103 @@ a.sign.in-button {
     background: var(--secondary);
     padding: 10px 20px;
     border-radius: 26px;
+}
+div#banner-section {
+    background-image: url("../img/banner.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: var(--text);
+    padding: 7% 0;
+}
+h1.title-primary {
+    padding: 20px 20px;
+    font-size: 50px;
+    /* font-family: var(--primary-fonts); */
+}
+h2.title-secondary{
+    padding-bottom: 15px;
+    font-size: 30px;
+    font-family: var(--secondary-fonts);
+}
+.content-inner h3 {
+    font-size: 30px;
+    padding-bottom: 15px;
+    color: var(--secondary);
+    font-family:var(--primary-fonts);
+}
+.content-inner p{
+    font-family:var(--secondary-fonts);
+    padding-bottom: 50px;
+    font-size: 16px;
+}
+a.butn-read {
+    text-decoration: none;
+    background: var(--text);
+    padding: 13px 40px;
+    text-align: center;
+    color: var(--primary);
+    font-size: 18px;
+    transition: .5s all ease;
+}
+a.butn-read:hover {
+    background: var(--secondary);
+    border-radius: 25px;
+    color: seashell;
+}
+/*variety of cars section*/
+section#veriety_of_cars {
+    text-align: center;
+    padding: 6% 0;
+    overflow: hidden;
+}
+h1.title {
+    font-size: 30px;
+    /* padding: 55px 5px; */
+}
+.variety-inner p {
+    font-family: var(--secondary-fonts);
+    padding: 29px 15px;
+    font-size: 17px;
+}
+.car {
+    width: 33%;
+    float: left;
+    padding-top: 46px;
+}
+.cars-name {
+    float: left;
+    /* padding: 20px 5px 20px 10px; */
+    width: 33%;
+}
+/*search car*/
+#search_car_area {
+    background-image: url(../img/bg.jpg);
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+}
+.search-content {
+    float: right;
+    width: 50%;
+    background:white;
+    padding:20px;
+
+}
+select {
+    width: 100%;
+    margin: 3% 0;
+    padding: 2%;
+    border: 1px solid antiquewhite;
+}
+.search-content h2{
+    text-align: center;
+}
+a.butn-find {
+    background: white;
+    padding: 18px 44px;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 33%;
 }
