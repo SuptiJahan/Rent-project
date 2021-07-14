@@ -186,3 +186,42 @@ p.sub-title {
     border-radius: 47px;
     margin: 3%;
 }
+/*Testemonial section*/
+section#testimonial {
+    margin-top: 4% 0;
+    background: var(--acent);
+}
+.slide-inner {
+    margin: 0% 7% 3% 7%;
+}
+.slide-inner img {
+    width: 22%!important;
+    display: inline-block!important;
+    position: relative;
+    top: 54px;
+}
+.owl-item.active {
+    text-align: center;
+}
+p.test {
+    font-size: 20px;
+    margin: 2% 1%;
+}
+.bd_slider-inner {
+    background: var(--text);
+    padding:70px 40px;
+    margin: :10%;
+}
+h2.title-secondarys {
+    text-align: center;
+    font-size: 35px;
+    padding: 70px 0px 0px 0px;
+    color: white;
+}
+img.test-img {
+    width: 46px!important;
+}
+h2.Degisnation {
+    color: var(--secondary);
+    padding-top: 11px;
+}
