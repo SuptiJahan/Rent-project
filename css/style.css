@@ -57,6 +57,7 @@ a.sign.in-button {
     background: var(--secondary);
     padding: 10px 20px;
     border-radius: 26px;
+    display: inline-block;
 }
 div#banner-section {
     background-image: url("../img/banner.jpg");
@@ -97,6 +98,7 @@ a.butn-read {
     color: var(--primary);
     font-size: 18px;
     transition: .5s all ease;
+    display: inline-block;
 }
 a.butn-read:hover {
     background: var(--secondary);
